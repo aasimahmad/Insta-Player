@@ -227,6 +227,10 @@ select > option {
     max-width: 95vw;
   }
 
+  .player:hover .controls-container{
+    opacity: 1;
+  }
+
   .fas {
     font-size: 20px;
   }
@@ -239,23 +243,11 @@ select > option {
     position: relative;
     top: -25px;
   }
-  
-  .controls-container {
-    height: 50px;
-    opacity: 0.5;
-  }
-  
+
   .progress-range {
     height: 6px;
-    width: calc(100% - 30px);
-    background: rgba(202, 202, 202, 0.5);
-    margin: auto;
-    border-radius: 10px;
-    position: absolute;
     left: 15px;
     top: 3px;
-    cursor: pointer;
-    transition: height 0.1s ease-in-out;
   }
 
   .progress-range:hover {
@@ -288,8 +280,6 @@ select > option {
   }
 
   select > option {
-    background: rgba(0, 0, 0, 0.9);
-    border: none;
     font-size: 8px;
   }
 
