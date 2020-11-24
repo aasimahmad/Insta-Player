@@ -229,6 +229,7 @@ select > option {
 
   .player:hover .controls-container{
     opacity: 1;
+    transition: all 0.5s ease-out;
   }
 
   .fas {
