@@ -241,14 +241,28 @@ select > option {
   }
 
   .progress-range {
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 0;
+    height: 6px;
+    width: calc(100% - 30px);
+    background: rgba(202, 202, 202, 0.5);
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    left: 15px;
+    top: 3px;
+    cursor: pointer;
+    transition: height 0.1s ease-in-out;
+  }
+
+  .progress-range:hover {
+    height: 7.25px;
   }
 
   .progress-bar {
-    border-radius: 0;
+    background: var(--primary-color);
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.5s ease;
   }
 
   .volume-range {
@@ -263,19 +277,20 @@ select > option {
   }
 
   select {
-    top: -3px;
-    font-size: 12px;
-    width: 52px;
+    top: -4px;
+    font-size: 9px;
+    width: 43.5px;
   }
 
   select > option {
     background: rgba(0, 0, 0, 0.9);
     border: none;
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .time {
-    font-size: 12px;
+    font-size: 9.4px;
+    margin-top: 2px;
   }
 }
 
