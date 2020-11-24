@@ -239,7 +239,12 @@ select > option {
     position: relative;
     top: -25px;
   }
-
+  
+  .controls-container {
+    height: 50px;
+    opacity: 0.5;
+  }
+  
   .progress-range {
     height: 6px;
     width: calc(100% - 30px);
