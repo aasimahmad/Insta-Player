@@ -220,6 +220,7 @@ select > option {
   transform: translateY(-50%);
 }
 
+
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .player {
@@ -242,13 +243,13 @@ select > option {
 
   .control-group {
     position: relative;
-    top: -25px;
+    top: -20px;
   }
 
   .progress-range {
     height: 6px;
     left: 15px;
-    top: 3px;
+    top: 6px;
   }
 
   .progress-range:hover {
